@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(to bottom, #000046, #2c17a3, #000046);
+    min-height: 95vh;
+    color: white;
+    font-family: Jost, sans-serif;
+}
+header{
+    position: fixed;
+    top: 0px;
+    border: solid 1px white;
+    margin: 5px;
+    padding: 5px;
+    font-size: xx-large;
+    background-color: #000046;
+}
+.container{
+    border: solid 1px white;
+    margin: 70px 5px 70px 5px;
+}
+.navbar{
+    background-color: rgb(30, 30, 30);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+.navbar img{
+    height: 40px;
+    width: 40px;
+}

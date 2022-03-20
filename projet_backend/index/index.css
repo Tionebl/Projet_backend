@@ -30,6 +30,14 @@ p{
 }
 .navbar p{
     display: none;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: x-large;
+}
+.navbar a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 @media (min-width: 1024px){
     .container{
@@ -43,11 +51,5 @@ p{
     }
     .navbar p{
         display: block;
-        margin-left: 10px;
-    }
-    .navbar a{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
     }
 }
